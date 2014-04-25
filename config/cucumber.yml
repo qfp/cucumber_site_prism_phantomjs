@@ -1,0 +1,11 @@
+## base_url var
+frontend:
+  base_url: http://localhost:9000
+ci:
+  base_url: http://10.17.7.11:9000
+cms:
+  base_url: http://127.0.0.1:8080/opencms/opencms
+
+## cucumber command options
+---
+default: --format pretty --format html --out=results.html
